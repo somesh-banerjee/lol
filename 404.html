@@ -2,14 +2,53 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Single Page Apps for GitHub Pages</title>
+    <link rel="icon" type="image/svg+xml" href="/logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Somesh's Blog</title>
     <script type="text/javascript">
       var l = window.location
       var blogId = l.pathname.match(/\d+/g)[0]
-      var newUrl = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + '/blogs?' + 'blog=' + blogId + l.hash
+      var newUrl =
+        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + '/blogs/blogs?' + 'blog=' + blogId + l.hash
 
       window.location = newUrl
     </script>
+    <meta
+      name="description"
+      content="Welcome to Somesh's Blog, your personal knowledge repository. Here, I share my learning journey, covering topics like blockchain, software development, and information security. Join me as I take notes and simplify complex concepts, making it easier for both you and me to revise and grow our understanding. No frills, just genuine insights."
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background-color: #f0f0f0;
+      }
+      .container {
+        margin-top: 100px;
+      }
+      h1 {
+        font-size: 72px;
+        color: #ff4500;
+      }
+      p {
+        font-size: 24px;
+        color: #333;
+        margin-top: 20px;
+      }
+      img {
+        width: 300px;
+        margin-top: 50px;
+      }
+    </style>
   </head>
+  <body>
+    <div class="container">
+      <h1>Oops!</h1>
+      <p>Looks like you're lost!</p>
+      <img src="https://media.giphy.com/media/14uQ3cOFteDaU/giphy.gif" alt="Lost cat" />
+      <p>But don't worry, we'll help you find your way back!</p>
+      <a href="/">Go to Home Page</a>
+    </div>
+  </body>
   <body></body>
 </html>
