@@ -8,8 +8,7 @@
     <script type="text/javascript">
       var l = window.location
       var blogId = l.href.match(/\d+/g)[0]
-      var newUrl =
-        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + '/blogs/blogs?' + 'blog=' + blogId + l.hash
+      var newUrl = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + '/blogs' + '?blog=' + blogId
 
       window.location = newUrl
     </script>
