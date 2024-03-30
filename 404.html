@@ -7,7 +7,7 @@
     <title>Somesh's Blog</title>
     <script type="text/javascript">
       var l = window.location
-      var blogId = l.pathname.match(/\d+/g)[0]
+      var blogId = l.href.match(/\d+/g)[0]
       var newUrl =
         l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') + '/blogs/blogs?' + 'blog=' + blogId + l.hash
 
